@@ -1,0 +1,23 @@
+body {
+    font-family: "Helvetica", sans-serif;
+}
+
+#image-container {
+    display: flex;
+    width: 960px;
+    margin-top: 40px;
+    margin: 15px auto;
+}
+
+#input-container {
+    padding-left: 35px;
+}
+
+#file {
+    margin-bottom: 15px;
+}
+
+.input {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
