@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>MemeMaker-Simple</title> 
+    <title>MEME MAKER</title> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <link href="styles.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <div id="image-container">
-        <canvas width="500" height="500"></canvas>
-        <div id="input-container">
-            <input type="file" id="file" class="input" /><br />
-            <span>Top Line:</span><br/>
-            <input id="topLineText" class="input" type="text"><br/>
-            <span>Bottom Line:</span><br/>
-            <input id="bottomLineText" class="input" type="text"><br/>
-            <button id="saveBtn">Save</button>
-        </div>
+    <header>
+        <h1>MEME MAKER</h1>
+    </header>  
+    <section id="main-container">
+    <div id="first-container">
+        <canvas id="image-place" width="500" height="500"></canvas>
     </div>
+    <div id="second-container">
+            <input type="file" id="file" class="input" /><br />
+            <span>Top Line:</span>
+            <input id="topLineText" class="second-input" type="text"><br/>
+            <span>Bottom Line:</span>
+            <input id="bottomLineText" class="second-input" type="text"><br/>
+            <button id="saveBtn">Save</button>
+    </div>
+    </section>
 <script src="main.js"></script>
 </body>
 </html>
