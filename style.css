@@ -1,23 +1,51 @@
-body {
-    font-family: "Helvetica", sans-serif;
+*{
+	margin:0 auto;
+	padding:0 auto;
 }
 
-#image-container {
-    display: flex;
-    width: 960px;
-    margin-top: 40px;
-    margin: 15px auto;
+body{
+	background: #F3ECDB;
+	font-family: Arial, sans-serif;
+	text-align: center;
 }
 
-#input-container {
-    padding-left: 35px;
+header{
+	margin-top: 50px;
 }
 
-#file {
-    margin-bottom: 15px;
+header > h1{
+	font-size: 40px;
 }
 
-.input {
-    margin-top: 8px;
-    margin-bottom: 8px;
+#main-container{
+	margin-top: 50px;
+	width: 1000px;
+	min-height: 500px;
+}
+
+#first-container{
+	float: left;
+	text-align: left;
+	width: 500px;
+}
+
+#second-container{
+	float: right;
+	text-align: left;
+	width: 450px;
+	margin: 20px 0 0 50px;
+}
+
+#image-place{
+	background: #fff;
+}
+
+.second-input{
+	margin-top: 10px;
+	border: 1px solid #000;
+	font-size: 18px; 
+}
+
+#saveBtn{
+	margin-top: 10px;
 }
